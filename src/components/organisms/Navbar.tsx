@@ -1,19 +1,10 @@
 function LogoMark() {
   return (
-    <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <clipPath id="nav-l"><rect x="0" y="0" width="50" height="100" /></clipPath>
-        <clipPath id="nav-r"><rect x="50" y="0" width="50" height="100" /></clipPath>
-      </defs>
-      <ellipse cx="37" cy="50" rx="23" ry="28" transform="rotate(-10 37 50)"
-        stroke="#E8521A" strokeWidth="11" fill="none" opacity="0.28" clipPath="url(#nav-l)" />
-      <ellipse cx="63" cy="50" rx="23" ry="28" transform="rotate(10 63 50)"
-        stroke="#E8521A" strokeWidth="11" fill="none" opacity="0.28" clipPath="url(#nav-r)" />
-      <ellipse cx="37" cy="50" rx="23" ry="28" transform="rotate(-10 37 50)"
-        stroke="#E8521A" strokeWidth="11" fill="none" clipPath="url(#nav-r)" />
-      <ellipse cx="63" cy="50" rx="23" ry="28" transform="rotate(10 63 50)"
-        stroke="#E8521A" strokeWidth="11" fill="none" clipPath="url(#nav-l)" />
-    </svg>
+    <img
+      src="/img/logo.PNG"
+      alt="CalibreSouth Logo"
+      className="w-8 h-8 object-contain"
+    />
   )
 }
 
